@@ -1,0 +1,791 @@
+body{
+	font-family: "Raleway";
+	background-color: #f6fbfd;
+}
+
+h1{
+	font-family: "Varela Round";
+	font-weight: bolder;
+	margin: 50px 50px;
+	color: #003f9e;
+	font-size: 125%;
+}
+
+h2{
+	font-family: "Varela Round";
+	font-weight: bolder;
+	font-size: 105%;
+}
+
+.content{
+	width: 1000px;
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	display: block;
+	margin: 10px auto 30px auto;
+}
+
+.shadow{
+	padding-bottom: 50px;
+	box-shadow: 3px 3px 10px 0px #555;
+	background-color: white;
+}
+
+.login-form{
+	margin: 50px auto 45px auto;
+}
+
+.general-form{
+	margin: 50px 93px;
+}
+
+.content-header{
+	text-align: right;
+	width: 100%;
+	height: 35px;
+	background-color: #53c0ae;
+}
+
+.content-header > p{
+	padding-top: 8px;
+    padding-right: 10px;
+    color: white; 
+}
+
+.footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 35px;
+	background-color: #53c0ae;
+}
+
+.login-form-input{
+	display: block;
+	margin: 10px auto 10px auto;
+	padding: 6px 12px;
+}
+
+.login-form-input-text{
+	width: 250px;
+	border-color: #66CCff;
+	border-style: solid;
+}
+
+.login-form-input-button{
+	width: 100px;
+	margin-top: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #53c0ae;
+	border-style: hidden;
+	font-size: 105%;
+	color: white; 
+}
+
+.final-button{
+	/*margin-top: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;*/
+	background-color: #53c0ae !important;
+	/*border-style: hidden;
+	font-size: 105%;
+	color: white;*/ 
+}
+
+.login-form-input-button:hover{
+	background-color: #7ed0c2;
+}
+
+.row{
+	margin-top: 25px;
+}
+
+.inline-row{
+	margin-top: 35px;
+	height: 50px;
+}
+
+.question-block{
+	margin-top: 45px;
+}
+
+.left-col{
+	float: left;
+    width: 100px;
+    padding-top: 8px;
+}
+
+.long-col{
+	width: 150px;
+}
+
+.admin-left-col{
+	float: left;
+    width: 135px;
+}
+
+.clearfix{
+ 	clear: both;	
+}
+
+.general-input-text{
+	border-bottom-color: #66CCff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 6px 12px;
+	width: 100px;
+	font-size: 100%;;
+}
+
+.long-input-text{
+	width: 300px;
+}
+
+.admin-input-text{
+	width: 400px;
+}
+
+.general-form-footer{
+	margin-top: 75px;
+	text-align: center;
+}
+
+.general-form-input-button{
+	margin: 0px 12px;
+	padding: 6px 12px;	
+	background-color: #1256a3;
+	font-size: 1.1em;
+	border-style: hidden;
+	color: white; 
+}
+
+.general-form-input-button:hover{
+	background-color: #4d80ba;
+}
+
+.general-form-input-button-previous{
+	background-color: #88aad1;
+}
+
+.general-form-input-button-previous:hover{
+	background-color: #c4d5e8;
+}
+
+.finish-input-button{
+	margin: 0px 12px;
+	padding: 6px 35px;	
+	background-color: #53c0ae;
+	font-size: 1.1em;
+	border-style: hidden;
+	color: white; 
+}
+
+.finish-input-button:hover{
+	background-color: #7ed0c2;
+}
+
+.pain-cell{
+	width: 68px;
+	text-align: center;
+}
+
+.patient-table-td .pain-cell label{
+	padding-left: 4px;
+}
+
+.general-table tr:nth-child(even){
+	background-color: #eaf4f8;
+}
+
+.sub-tab tr:nth-child(even){
+	background-color: inherit;
+}
+
+.sub-tab tr{
+    border: none !important;
+}
+
+.no-padding-left{
+    padding-left: 0 !important;
+}
+
+.scale-left-14{
+    text-align: center;
+    margin-left: -22px;
+}
+.scale-left-15{
+    text-align: center;
+    margin-left: -15px;
+}
+
+.scale-right-14-15{
+    text-align: center !important;
+    margin-right: -20px;
+}
+
+.no-padding-right{
+    padding-right: 0 !important;
+}
+
+.general-table{
+	border: none;
+	border-collapse: collapse;
+	margin-bottom: 80px;
+    width: 100%;
+}
+
+.general-table tr{
+	border-top: 1px solid #66CCFF;
+}
+
+.radio-cell-limitations2{
+	width: 125px;
+}
+
+.radio-cell-sleep{
+	width: 115px;
+}
+
+.radio-cell-painSelf{
+	width: 50px;
+}
+
+.radio-cell{
+	text-align: center;
+}
+
+.table-question{
+	height: 75px;
+	padding-left: 10px;
+	padding-right: 100px;
+}
+
+.radio-span{
+	padding-right: 40px;
+	white-space: nowrap;
+	float: left;
+}
+
+.radio-span input{
+	margin-right: 15px;
+}
+
+.scale-info{
+    display: flex;
+    justify-content: space-between;
+    font-style : italic;
+}
+
+.type-block{
+    display: block;
+    margin-bottom: 50px;
+}
+
+.inline-radio{
+    float: left;
+    margin-right: 50px;
+}
+
+.patient-table{
+	margin: 25px 0px 25px 0px;
+	border-collapse: collapse;
+	border-bottom: 1px solid #66CCff;
+}
+
+.patient-table-th, .patient-table-td{
+    border-top: 1px solid #66CCff;
+    padding-bottom: 10px;
+}
+
+.patient-table-th-func, .patient-table-td-func{
+	padding-bottom: inherit;
+}
+
+.patient-table-th{
+	height: 75px;
+	width: 90px;
+	background-color: #B1eaf5;
+}
+
+p.perception-question{
+	padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+ol.perception-question{
+    margin-top: 0px;
+}
+.patient-table-input-text{
+	border: none;
+	width: 700px;
+	padding: 20px;
+	font-size: 1.1em;
+} 
+
+.radio-cell-history{
+	width: 75px;
+}
+
+.history-table-question{
+	padding: 17px 20px 17px 15px;
+	text-align: left;
+}
+
+.history-row{
+	margin-top: 50px;	
+}
+
+.range-value{
+	padding-left: 11px;
+}
+
+.questionnaire{
+	margin: 100px auto 50px auto;
+	text-align:center;
+}
+
+input[type=radio]:checked{
+  color: #0DFF92;
+}
+
+.warning{
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #ff6767;
+	color: #fff;	
+}
+
+.elem-warning{
+	color: #ff6767;
+}
+
+.admin-tile{
+	font-style : italic;
+	padding-left: 585px;
+    margin-top: -65px;
+    margin-bottom: 46px;
+}
+
+.admin-checkbox{
+    margin-left: 50px;
+}
+
+.describe-text{
+    font-size: inherit;
+}
+
+.logout-admin{
+    float: right;
+    margin-right: 10px;
+    margin-top: -115px;
+    text-align: right;
+}
+
+.logout-admin a:link, .logout-admin a:visited{
+    margin-right: 12px;
+	font-style: italic;
+	font-family: "Varela Round";
+	font-weight: bolder;
+	color: #003f9e;
+}
+
+.user-general{
+	margin-bottom: 20px;
+}
+
+.change-password-button{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #53c0ae;
+	border-style: hidden;
+	font-size: 100%;
+	color: white; 
+}
+
+a:link, a:visited {
+    color: blue;
+}
+
+.admin-table{
+	margin: 0px 15px 0px 15px;
+}
+
+.notification-change{
+    font-style : italic;
+    color: green;
+}
+
+.range-smiley{
+	width: 30px;
+    height: auto;
+}
+
+.scale-left{
+	padding-left: 25px;
+    float: left;
+}
+
+.scale-right{
+	padding-right: 40px;
+	text-align: right;
+    float: right;
+}
+
+.scale-right-func{
+	padding-right: 25px;
+}
+
+.mannequin-block{
+    margin-left: -86px;
+    position: relative;
+    height: 640px;
+}
+
+.mannequin-img{
+	position: absolute;
+	z-index: 10;
+}
+
+.thoughts-cell{
+	width: 20%;
+	text-align: center;
+}
+
+.thoughts-tab{
+	width: 100%;
+}
+
+.thoughts-label{
+	margin-left: 70px !important;
+}
+
+.select-combobox {
+    overflow: hidden;
+    height: 33px;
+    width: 360px;
+    border: 2px solid #52c5fe;
+    background: url(../img/combobox.jpg) right center no-repeat;
+}
+
+.dropdown-label {
+    height: 33px;
+    padding: 6px 16px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 360px;
+    margin-top: -12px;
+    margin-left: -2px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    z-index: 50;
+    border-left: 2px solid #52c5fe;
+    border-bottom: 2px solid #52c5fe;
+    border-right: 2px solid #52c5fe;
+}
+
+.dropdown-content a {
+    padding: 8px 16px;
+    display: block;
+    border-top: 1px solid #C6D6F3;
+    text-decoration: none;
+    color: black;
+}
+
+.select-combobox a:hover {
+    background-color: #B0E7EF;
+}
+
+th.rotate {
+    height: 140px;
+    white-space: nowrap;
+}
+/* Firefox needs the extra DIV for some reason, otherwise the text disappears if you rotate */
+th.rotate > div {
+    transform: translate(10px, 50px) rotate(315deg);
+    width: 30px;
+}
+th.rotate > div > span {
+    padding: 5px 10px;
+}
+
+.random-pwd {
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 5px;
+}
+
+.scale-title {
+    text-align: center;
+    padding-left: 620px;
+}
+
+.scale-instruction {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+
+.scale-img{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    padding-top: 25px;
+    position: relative;
+}
+
+.scale-img img{
+    height: 708px;
+}
+
+.scale-container {
+    position: absolute;
+    top: 22px;
+    right: 47px;
+    height: 714px;
+    width: 29px;
+}
+
+.scale-thumb{
+    border: 1px solid;
+    background-color: #EFEFEF;
+    width: 27px;
+    height: 12px;
+}
+
+.scale-result-block {
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.scale-result-block .sentence{
+    display: inline-block;
+}
+
+.scale-result-block .result{
+    display: inline-block;
+}
+
+.scale-result-block .result input {
+    border: 1px solid;
+    height: 45px;
+    width: 75px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.copyright {
+    font-style: italic;
+    text-align: right;
+    padding-top: 50px;
+    margin-bottom: -32px;
+    margin-right: -50px;
+}
+
+.units-page.select-combobox{
+    margin-top: 30px;
+}
+
+.height-weight-unit{
+    text-align: right;
+}
+
+.uk-unit{
+    width: 50px;
+}
+
+.table-header{
+    width: 814px;
+    border-top: none !important;
+}
+
+.table-header-fixed{
+    position: fixed;
+    background-color: #FFF;
+    border-bottom: 1px solid #66CCFF;
+    top: 0;
+    z-index: 50;
+}
+
+.with-2-radio{
+    width: 448px;
+}
+
+.with-5-radio{
+    width: 444px;
+}
+
+.with-7-radio{
+    width: 340px;
+}
+
+.with-7-radio-sub-tab{
+    width: 362px;
+}
+
+.empty-for-fixed{
+    display: none;
+}
+
+.sub-option{
+    padding-left: 25px;
+}
+
+.central-option{
+    text-align: center;
+}
+
+.breath-question{
+    width: 250px !important;
+}
+
+/* ######################### radio buttons ######################### */
+
+.css3-radio{
+  height: 19px;
+}
+
+.css3-radio input[type="radio"]{
+  margin-left: -9999px;
+}
+
+.css3-radio label.toggler_r{ /* radio label */
+  display: block;
+  position: relative;
+  padding-left: 32px; /* space to the left of label text */
+  padding-top: 2px;
+  /*margin-bottom: 1em;*/ /* bottom spacing */
+  cursor: pointer;
+  top: -22px;
+}
+
+.pain-cell .toggler_r{
+  margin-left: 21px;
+}
+
+.radio-cell .toggler_r{
+  margin-left: 25px;
+}
+
+.big-radio-cell .toggler_r{
+  margin-left: 50px;
+}
+
+.small-radio-cell .toggler_r{
+    margin-left: 13px;
+}
+
+.css3-radio label.toggler_r::before{ /* outer round circle */
+  content: '';
+  display: block;
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  background: #B1E5EF;
+  box-shadow: 0 0 3px #BFDEFC inset;
+  border-radius: 25px;
+  left: 0;
+  top: 0;
+}
+
+.css3-radio label.toggler_r::after{ /* inner dark circle */
+  content: '';
+  position:absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  left: 5px;
+  top: 5px;
+  overflow: hidden;
+  transition: all 0.2s;  /* CSS3 transition on dark circle */
+}
+
+.css3-radio input[type="radio"]:checked + label.toggler_r::after{ /* inner dark circle when radio is selected */
+  background: #1B4977;
+  box-shadow: 1px 1px 5px white;
+}
+
+.css3-radio input[type="radio"]:focus + label.toggler_r:before {
+  box-shadow: 0 0 0 1px #1256a3;
+}
+
+.css3-radio input[type="radio"]:disabled + label.toggler_r:before {
+    background: #F6F6F6;
+}
+
+.css3-radio input[type="radio"]:disabled + label.toggler_r{ 
+    cursor: initial;
+}
+
+/* ######################### checkbox buttons ######################### */
+/* hide input */
+input.css3-checkbox:empty {
+    margin-left: -9999px;
+}
+
+/* style label */
+input.css3-checkbox:empty ~ label {
+    position: relative;
+    float: left;
+    line-height: 24px;
+    text-indent: 40px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.css3-checkbox:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 20px;
+    border-radius: 3px;
+    border: 2px solid #56c7fb;
+}
+
+/* toggle hover */
+input.css3-checkbox:hover:not(:checked):not(:disabled) ~ label:before {
+    content:'\2714';
+    text-indent: 4px;
+    color: #c5c3c3;
+}
+
+/* toggle on */
+input.css3-checkbox:checked ~ label:before {
+    content:'\2714';
+    text-indent: 4px;
+    color: #194271;
+    background-color: #aadfe4;
+}
+
+/* checkbox focus */        
+input.css3-checkbox:focus ~ label:before {
+    box-shadow: 0 0 0 1px #56c7fb;
+}
+
+/* checkbox focus */
+input.css3-checkbox:disabled ~ label:before {
+    border: 2px solid #F6F6F6;
+    cursor: initial;
+}
+
+input.css3-checkbox:disabled ~ label {
+    cursor: initial;
+}
