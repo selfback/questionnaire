@@ -63,7 +63,7 @@
         "P4_TITLE" => "Ethnicity",
         "P4_QUESTION" => "What is your <strong>ethnic group</strong>? (choose the option that best describes your ethnic group or background)",
         "P4_ETHNIC_1" => "White",
-        "P4_ANSWER_1" => "Scottish/English/Welsh/Northern Irish/ British",
+        "P4_ANSWER_1" => "Scottish/English/Welsh/Northern Irish/British",
         "P4_ANSWER_2" => "Irish",
         "P4_ANSWER_3" => "Gypsy or Irish Traveller",
         "P4_ANSWER_4" => "Any other White background",
